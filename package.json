@@ -4,8 +4,16 @@
   "description": "\" this is my first step in achieving big things\"",
   "main": "keep.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node first.js",
+    "keep":"node keep.js"
   },
   "author": "Gayam Nagarjuna 22mcmc19@uohyd.ac.in",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }

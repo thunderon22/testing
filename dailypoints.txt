@@ -1,0 +1,7 @@
+1.Event Loop:
+* Event loop is the main reason that java script can perform asynchronous actions 
+* By default javascipt runs the code line by line which can block the exection of 
+  the remaining tasks if one task takes more time which in the middle of the event loop queue.
+* To Deal with these kind of situations Eevent Loop uses "call backs" and "thread pools".
+* If any task is time consuming it will be moved or offloaded to thread pool and executed in threadpool only.
+* these time consuming tasks will be assosciated with call backs wich are call the event loop after executing the tasks by thread pool.
