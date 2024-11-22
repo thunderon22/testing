@@ -3,3 +3,5 @@ Data Structures in pandas:
 Difference between mormal arrays and labled arrays:
 Normal arrays will have nuemerical indexes , in labled arrays you can lable the indexes 
 by your wish and you can access them by using  those indexes.
+
+* DataFrames: Data Franes are 2D labled arrays , just like some typical 2D arrays 
