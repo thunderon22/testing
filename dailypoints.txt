@@ -5,3 +5,26 @@ Normal arrays will have nuemerical indexes , in labled arrays you can lable the 
 by your wish and you can access them by using  those indexes.
 
 * DataFrames: Data Franes are 2D labled arrays , just like some typical 2D arrays 
+Accessing of DataFrames can  be done by using methos they are loc[],iloc[]
+iterating over rows and  columns  in  data_frame by using iterrows().
+for i , j in data_frame.iterrows()
+
+* Working with missing Data in pandas:
+There are two parts in Dealing with missing data in  pandas , they are 
+(i) Finding the missing data(Nulll , NA)
+(ii) Dealing with the missing data(Null , NA)
+ 
+ Finding Null Data:
+ isnull() # returns true for na values.
+ notnull() # returnd false for na values.
+ Dealing with the missing Data:
+ fillna() # Fill the nan values with anyother values.
+ replace() #  replaces any value with another value not limited to nan values like fillna()
+
+ * Sorting the values of data_frame():
+ df.sort_values(ascending = true/false)
+ 
+ *Gruoping Data :
+  Splitting : It is a process in which we split data into group by applying some conditions on datasets.
+  Applying : It is a process in which we apply a function to each group independently
+  Combining : It is a process in which we combine different datasets after applying groupby and results into a data structure
